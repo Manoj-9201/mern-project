@@ -27,7 +27,7 @@ mongoose
   })
   .catch((e) => console.log(e));
 
-require("./UserDetails");
+require("./userDetails");
 
 const User = mongoose.model("UserInfo");
 app.post("/register", async (req, res) => {
