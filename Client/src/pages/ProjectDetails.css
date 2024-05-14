@@ -1,0 +1,49 @@
+.project-details-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 50px auto 0;
+    /* Center horizontally and add top gap, no bottom margin */
+    width: 210mm;
+    /* A4 width */
+    height: 230mm;
+    /* A4 height */
+    display: flex;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Align content to the top */
+    align-items: flex-start;
+    /* Align text to the left */
+    text-align: justify;
+    /* Justify text */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.project-details-container .details-line {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* Adjust the margin-bottom value to add space between lines */
+}
+
+.project-details-container p1 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Poppins-medium';
+    color: #000;
+    /* Change to a darker color */
+    margin-bottom: 20px;
+}
+
+.project-details-container p2 {
+    font-size: 21px;
+    font-family: 'Poppins-Regular';
+    color: #555;
+    /* Adjust to a darker color */
+    margin-bottom: 20px;
+    text-indent: 30px;
+    /* Add indentation to paragraphs */
+}
